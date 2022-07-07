@@ -1,0 +1,62 @@
+html{
+    background-color: aqua;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+body{
+
+    background-color: white;
+    
+    min-height: 100px;
+    
+    border-radius: 18px;
+    
+    padding: 10px;
+    }
+
+    nav ul{
+        padding: 10px;
+        margin: 0px;
+        list-style: none;
+        background-color: gainsboro;
+        border-radius: 10px;
+
+    }
+
+    nav ul li{
+        display: inline;
+        padding: 5px;
+        margin-right: 10px;
+        border: 1pxs solid black;
+        border-radius: 10px;
+        text-align: center;
+    }   
+
+    nav ul li:hover{
+        background-color: aqua;
+    }
+
+    nav a{
+        color: black;
+        text-decoration: none;
+    }
+
+    main{
+        height: 70vh;
+    }
+
+    header img{
+        width: 48px;
+        height: 48px;
+    }
+
+    h1{
+        display: inline;
+    }
+
+    footer::after{
+        content: "© Copyright 2022 HenriqueVassiliou.github.io - Todos os Direitos Reservados";
+        
+    }
+    
