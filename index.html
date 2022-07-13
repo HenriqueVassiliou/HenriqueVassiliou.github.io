@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Henrique Philippi Vassiliou - Inicio</title>
-    <link rel="stylesheet" href="/siteCss.css">
+    <title>Henrique Vassiliou - Inicio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://i.pinimg.com/564x/d8/f7/88/d8f788da50420a0a0bb89f0e910314d0.jpg"
+        type="image/png" />
+    <link rel="stylesheet" href="/css/site.css" />
     <style>
         html {
             background-image: url(/Imagens/windowsXp.jpg);
@@ -16,52 +21,91 @@
     </style>
 </head>
 
-<!-- <style>
-
-nav a{
-    color: darkslategray;
-}
-
-nav a:hover{
-    color: black;
-}
-
-/* nav ul{
-background-color: aqua;
-} */
-
-</style> -->
-
-<body>
-
-    <header>
-        <img src="/Imagens/casa.png" alt="">
-        <h1>Inicio</h1>
-
+<body class="bg-dark container p-4">
+    <header class="row">
+        <section class="col">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="w-100 rounded-circle img-thumbnail" src="/Imagens/HV.png"
+                                alt="">
+                        </div>
+                        <div class="col">
+                            <h1 class="display-4">Henrique Vassiliou</h1>
+                            <hr class="mb-5">
+                            <a href="/index.html" class="btn btn-outline-primary">Inicio</a>
+                            <a href="/curriculo.html" class="btn btn-outline-primary">Curriculo</a>
+                            <a href="/contato.html" class="btn btn-outline-primary">Contato</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
     </header>
 
 
-    <nav>
+    <main class="row mt-2">
+        <section class="col">
+            <div class="card">
+                <div class="card-header">Inicio</div>
+                <div class="card-body">
+                    <h2>Seja bem-vindo a meu site pessoal!</h2>
+                    <h3>Estou me capacitado em desenvolvimento FullStack, veja minha trajetória academica:</h3>
+                    <table class="table table-bordered table-hover table-striped">
+                        <thead>
+                            <th>Conhecimento</th>
+                            <th>Detalhe</th>
+                            <th>Nivel</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Metodologias Ageis</td>
+                                <td>Scrum, Kanban, Git</td>
+                                <td>Basico, mas praticado o curso todo</td>
+                            </tr>
+                            <tr>
+                                
+                            </tr>
+                            <tr></tr>
+                            <tr></tr>
+                        </tbody>
 
-        <ul>
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/cv.html">Curriculo</a></li>
-            <li><a href="/contato.html">Contato</a></li>
-        </ul>
+                    </table>
 
-    </nav>
+                </div>
+                <div class="card-footer">
+                    <footer>
 
-
-    <main>
-        <h2>Seja bem vindo a minha página pessoal!</h2>
-        <p>Site em constante construção, conforme adquiro mais conhecimento.</p>
+                    </footer>
+                </div>
+            </div>
+        </section>
     </main>
 
 
-    <footer>
-        <hr>
-    </footer>
+    <!-- <table class="table table-bordered table-hover table-striped">
+        <thead>
+            <th>#</th>
+            <th>Nome:</th>
+            <th>Idade:</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Henrique Philippi Vassiliou</td>
+                <td>15</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+        </tbody>
 
+    </table> -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

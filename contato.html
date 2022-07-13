@@ -5,71 +5,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Henrique Philippi Vassiliou - Contato</title>
-    <link rel="stylesheet" href="/siteCss.css">
+    <title>Henrique Vassiliou - Inicio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://i.pinimg.com/564x/d8/f7/88/d8f788da50420a0a0bb89f0e910314d0.jpg"
+        type="image/png" />
+    <link rel="stylesheet" href="/css/site.css" />
     <style>
         html {
             background-image: url(/Imagens/vale.jpg);
             background-repeat: no-repeat;
             background-position: center;
         }
-        
     </style>
 </head>
 
-<body>
-
-    <header>
-        <img src="/Imagens/bate-papo.png" alt="">
-        <h1>Contato</h1>
+<body class="bg-dark container p-4">
+    <header class="row">
+        <section class="col">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-2">
+                            <img width="150px" src="/Imagens/bate-papo.png" alt="">
+                        </div>
+                        <div class="col">
+                            <h1 class="display-4">Contato</h1>
+                            <hr class="mb-5">
+                            <a href="/index.html" class="btn btn-outline-primary">Inicio</a>
+                            <a href="/curriculo.html" class="btn btn-outline-primary">Curriculo</a>
+                            <a href="/contato.html" class="btn btn-outline-primary">Contato</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
     </header>
 
 
-    <nav>
-        <ul>
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/cv.html">Curriculo</a></li>
-            <li><a href="/contato.html">Contato</a></li>
-        </ul>
-    </nav>
+    <main class="row mt-2">
+
+        <section class="col">
+
+            <div class="card h-100">
+
+                <div class="card-header">Contato</div>
+
+                <div class="card-body">
+
+                    Envie uma mensagem para mim!
 
 
-    <main>
-        <h2>Entre em contato comigo.</h2>
-        <form action="mailto:henriquephvassiliou@gmail.com?subject=Contato via site pessoal">
 
-            <label for="nome">Nome: </label> <br>
+                    <section class="row">
 
-            <input type="text" name="nome" id="nome" placeholder="Insira seu nome:" required> <br>
+                        <div class="col">
 
-            <label for="telfone">Telefone: </label> <br>
+                            <div class="card">
 
-            <input type="text" telefone="telefone" id="telefone" placeholder="Insira o telefone" required>
+                                <form action="mailto:henriquephvassiliou@gmail.com?subject=Contato via site pessoal"
+                                    method="post" enctype="text/plain">
 
-            <br>
+                                    <div class="card-header">Formulário</div>
 
-            <label for="assunto">Assunto:</label> <br>
+                                    <div class="card-body">
 
-            <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea> <br>
+                                        <div class="input-group mb-3">
 
-            <input type="reset" value="Resetar">
+                                            <span class="input-group-text" id="nome">✍🏻</span>
 
-            <input type="submit" value="Enviar">
-        </form>
+                                            <input type="text" class="form-control" name="nome"
+                                                placeholder="Nome completo" required>
 
-        </br>
+                                        </div>
 
-        <a
-            href="https://mail.google.com/mail/u/0/?fs=1&to=henriquephvassiliou@gmail.com&su=Contato+-+Via+site+pessoal&?&tf=cm">Prefere
-            por Gmail?</a>
+                                        <div class="input-group mb-3">
+
+                                            <span class="input-group-text" id="nome">📧</span>
+
+                                            <textarea type="text" class="form-control" name="mensagem"
+                                                placeholder="Mensagem" required></textarea>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="card-footer">
+
+                                        <input type="reset" class="btn btn-outline-primary">
+
+                                        <input type="submit" class="btn btn-primary">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="card-footer">
+
+                    <footer>
+
+                    </footer>
+                </div>
+            </div>
+        </section>
     </main>
 
-
-    <footer>
-        <hr>
-    </footer>
-
-
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
